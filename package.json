@@ -13,7 +13,10 @@
     "security:secrets": "node scripts/security/check-secrets.mjs",
     "setup:hooks": "git config core.hooksPath .githooks",
     "setup:local": "node scripts/setup-local.mjs",
-    "supabase:types": "supabase gen types typescript --linked > src/lib/supabase/database.types.ts"
+    "supabase:types": "supabase gen types typescript --linked > src/lib/supabase/database.types.ts",
+    "setup:guided": "node scripts/setup-guided.mjs",
+    "setup:doctor": "node scripts/setup-doctor.mjs",
+    "supabase:verify": "node scripts/setup-doctor.mjs --supabase-only"
   },
   "dependencies": {
     "@supabase/supabase-js": "2.110.0",

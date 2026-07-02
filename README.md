@@ -16,12 +16,24 @@ It includes:
 
 ```bash
 npm install
-cp .env.example .env.local
-npm run setup:hooks
+npm run setup:guided
+npm run setup:doctor
 npm run dev
 ```
 
-Open http://localhost:3000.
+Open http://localhost:3000. The app also has a setup page at `/setup`.
+
+## Connect The Systems
+
+Use [docs/CONNECT_SYSTEMS.md](docs/CONNECT_SYSTEMS.md) as the handoff checklist. It covers GitHub, Vercel, Supabase, Codex, Claude Code, local hooks, and optional agent CI secrets.
+
+The key commands are:
+
+```bash
+npm run setup:guided   # writes .env.local and enables hooks
+npm run setup:doctor   # checks every system and prints the next step
+npm run supabase:verify # checks only the Supabase connection
+```
 
 ## One-Click Deploy
 

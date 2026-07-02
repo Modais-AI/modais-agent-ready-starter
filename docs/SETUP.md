@@ -13,8 +13,8 @@
 git clone YOUR_REPO_URL
 cd agent-ready-starter
 npm install
-cp .env.example .env.local
-npm run setup:hooks
+npm run setup:guided
+npm run setup:doctor
 npm run dev
 ```
 
@@ -34,3 +34,16 @@ Open http://localhost:3000.
 2. Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`.
 3. Deploy.
 4. Confirm pull requests create preview deployments.
+
+
+## System Doctor
+
+Run this whenever setup feels unclear:
+
+```bash
+npm run setup:doctor
+```
+
+It checks Node, dependencies, Git, hooks, GitHub remote, Vercel link, agent instruction files, and Supabase connectivity.
+
+See `docs/CONNECT_SYSTEMS.md` for the full systems checklist.

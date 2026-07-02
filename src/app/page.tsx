@@ -31,7 +31,7 @@ export default async function Home() {
       <nav className="site-nav" aria-label="Primary">
         <a className="brand-mark" href="#" aria-label="modais home">mod<span>a</span>is</a>
         <div className="nav-links">
-          <a href="#systems">What this sets up</a>
+          <a href="/setup">Setup</a>
           <a className="button primary small" href="https://calendly.com/matt-modais/30min">Book a free chat</a>
         </div>
       </nav>
@@ -46,9 +46,9 @@ export default async function Home() {
           </p>
           <div className="actions">
             <a className="button primary" href="https://calendly.com/matt-modais/30min">Find your first AI project</a>
-            <a className="button secondary" href="#systems">See what's included</a>
+            <a className="button secondary" href="/setup">Connect the systems</a>
           </div>
-          <p className="microcopy">Start with a working template. Keep the client in review, not in setup screens.</p>
+          <p className="microcopy">Start with a working template. Run the guided setup once. Keep the client in review, not in setup screens.</p>
         </div>
         <div className="status-panel" aria-label="Included setup">
           {setupItems.map((item) => (

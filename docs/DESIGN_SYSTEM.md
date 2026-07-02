@@ -1,16 +1,37 @@
 # Design System
 
-This template should feel calm, useful, and credible. It is a working app surface, not a marketing mockup.
+This template uses the Modais brand direction from `https://modais.xyz/`. It should feel direct, commercially sharp, calm, and built for expertise-led Australian businesses.
 
-## Principles
+## Brand Essence
 
-- Prioritize clear hierarchy, readable copy, and obvious actions.
-- Keep sections full-width and unframed unless the component is a repeated item or tool.
-- Avoid generic gradient blobs, decorative orbs, and oversized marketing cards.
-- Use responsive constraints so text and controls do not overlap on mobile.
-- Keep button labels short and action-oriented.
-- Do not use invented proof points, fake testimonials, fake logos, or unsupported claims.
+- Core idea: scale experts, not headcount.
+- Tone: plain-spoken, practical, commercially honest.
+- Avoid AI hype, vague futurism, fake proof, and decorative SaaS noise.
+- Use grounded language around expert time, bottlenecks, ROI, data, and ownership.
 
-## Tokens
+## Visual System
 
-Core tokens live in `src/app/globals.css` as CSS variables.
+- Background: warm off-white `#f4f2ec`.
+- Text: deep ink `#212733`.
+- Muted text: `#565d6b` and `#60635e`.
+- Accent: burnt orange `#be5b3a`; stronger accent `#a8472c`.
+- Borders: translucent ink, usually `rgba(33, 39, 51, 0.14)` or `0.32` for outline pills.
+- Display font: Bricolage Grotesque, weight 600-700.
+- Body font: Hanken Grotesk, weight 400-700.
+- Buttons: pill shaped, dark filled primary or transparent outline secondary.
+- Logo treatment: lowercase `modais`, compact, display font, with the `a` accented orange.
+
+## Layout Rules
+
+- Lead with a large, confident headline. Accent the commercial tension in orange.
+- Keep sections spacious and mostly unframed. Use cards only for repeated items or setup/status modules.
+- Avoid gradient blobs, generic glassmorphism, stock-looking imagery, and over-rounded cards.
+- Make mobile type large but constrained so words do not collide or overflow.
+- Keep CTAs short: “Book a free chat”, “Find your first AI project”, “See what's included”.
+
+## Agent Rules
+
+- Preserve real business claims from the user or source docs.
+- Do not invent testimonials, partner logos, awards, client names, ROI claims, or prices.
+- If changing UI, keep the Modais palette and typography unless the user explicitly asks for a different brand.
+- Run `npm run typecheck`, `npm run security:secrets`, and `npm run build` after app changes.

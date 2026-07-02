@@ -10,9 +10,9 @@ const setupItems = [
 ];
 
 const workflows = [
-  { title: "Design refresh", text: "Update pages while preserving claims, layout constraints, and the design system." },
-  { title: "Supabase change", text: "Add tables through migrations with RLS and clear setup notes." },
-  { title: "Security check", text: "Scan for secrets, service-role leaks, and unsafe environment variable usage." }
+  { title: "Capture the know-how", text: "Turn expert judgement, review steps, and repeatable decisions into a project the agent can understand." },
+  { title: "Build the system", text: "Use Supabase, Vercel previews, and guided repo instructions to ship the first useful workflow." },
+  { title: "Keep it safe", text: "Protect client data, block committed secrets, and keep service-role access out of browser code." }
 ];
 
 type StarterProject = { name: string; status: string };
@@ -28,18 +28,27 @@ export default async function Home() {
 
   return (
     <main>
+      <nav className="site-nav" aria-label="Primary">
+        <a className="brand-mark" href="#" aria-label="modais home">mod<span>a</span>is</a>
+        <div className="nav-links">
+          <a href="#systems">What this sets up</a>
+          <a className="button primary small" href="https://calendly.com/matt-modais/30min">Book a free chat</a>
+        </div>
+      </nav>
+
       <section className="hero-section">
         <div className="hero-copy">
-          <p className="eyebrow">Client-editable app workspace</p>
-          <h1>Agent-ready setup for Codex, Claude Code, Vercel, and Supabase.</h1>
+          <p className="eyebrow"><span aria-hidden="true" /> AI for expertise-led businesses · Built in Australia</p>
+          <h1>Scale your experts,<br /><em>not your setup time.</em></h1>
           <p className="lede">
-            A practical template for handing non-technical clients a repo they can open locally,
-            prompt safely, preview on Vercel, and grow without rebuilding setup from scratch.
+            A Modais-branded starter for handing clients a repo they can open locally, prompt safely,
+            preview on Vercel, and grow without rebuilding the same GitHub, Supabase, and agent setup.
           </p>
           <div className="actions">
-            <a className="button primary" href="/docs/SETUP.md">Setup guide</a>
-            <a className="button secondary" href="https://vercel.com/new/clone">Deploy flow</a>
+            <a className="button primary" href="https://calendly.com/matt-modais/30min">Find your first AI project</a>
+            <a className="button secondary" href="#systems">See what's included</a>
           </div>
+          <p className="microcopy">Start with a working template. Keep the client in review, not in setup screens.</p>
         </div>
         <div className="status-panel" aria-label="Included setup">
           {setupItems.map((item) => (
@@ -51,7 +60,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="section-grid" aria-label="Core setup">
+      <section id="systems" className="section-grid" aria-label="Core setup">
         <article>
           <GitBranch aria-hidden="true" />
           <h2>Preview-first workflow</h2>
@@ -71,7 +80,7 @@ export default async function Home() {
 
       <section className="workflows">
         <div>
-          <p className="eyebrow">Agent workflows</p>
+          <p className="eyebrow"><span aria-hidden="true" /> How it works</p>
           <h2>Prompt the repo, not a blank chatbot.</h2>
         </div>
         <div className="workflow-list">
@@ -87,7 +96,7 @@ export default async function Home() {
 
       <section className="data-preview">
         <div>
-          <p className="eyebrow">Supabase check</p>
+          <p className="eyebrow"><span aria-hidden="true" /> Supabase check</p>
           <h2>Demo data appears here after you apply the seed.</h2>
         </div>
         <div className="data-box">

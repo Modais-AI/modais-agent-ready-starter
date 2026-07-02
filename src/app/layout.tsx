@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Agent Ready Starter",
-  description: "A clean starter app wired for Vercel, Supabase, Codex, and Claude Code."
+  title: "modais · Agent-ready AI systems",
+  description: "Modais-style starter for building client-editable AI systems with Codex, Claude Code, Vercel, and Supabase."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

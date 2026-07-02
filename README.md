@@ -1,6 +1,6 @@
 # Agent Ready Starter
 
-A production-shaped starter for non-technical founders or operators who want to edit an app with Codex or Claude Code without wiring the same infrastructure every time.
+A Modais-branded, production-shaped starter for non-technical founders or operators who want to edit an app with Codex or Claude Code without wiring the same infrastructure every time.
 
 It includes:
 

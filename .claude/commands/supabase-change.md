@@ -1,0 +1,1 @@
+Read `supabase/README.md` and `CLAUDE.md`. Make the requested database change as a migration under `supabase/migrations/`, include RLS policies where user or business data is involved, update seed data only when useful, and explain how to apply the migration in managed Supabase.

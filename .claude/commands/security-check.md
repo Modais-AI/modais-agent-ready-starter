@@ -1,0 +1,1 @@
+Read `SECURITY.md` and `docs/SECURITY_CHECKLIST.md`. Check for committed secrets, service-role key exposure, unsafe env var usage, weak Supabase/RLS assumptions, and risky GitHub Actions triggers. Fix small concrete issues and report anything that needs owner input. Run `npm run security:secrets`.

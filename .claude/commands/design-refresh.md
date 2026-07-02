@@ -1,0 +1,1 @@
+Read `CLAUDE.md` and `docs/DESIGN_SYSTEM.md`. Refresh the requested page or section while preserving real content, truthful claims, accessibility, and responsive behavior. Reuse existing components where possible. Run `npm run typecheck`, `npm run security:secrets`, and `npm run build` if app files changed.

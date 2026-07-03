@@ -79,3 +79,38 @@ h3 { margin-bottom: 10px; font-size: 1.26rem; letter-spacing: -0.02em; }
   .command-strip, .systems-grid, .setup-flow { grid-template-columns: 1fr; }
   .command-strip code { white-space: normal; }
 }
+
+.owner-setup { gap: clamp(40px, 6vw, 76px); }
+.owner-hero { max-width: 980px; padding-block: clamp(58px, 9vw, 112px) clamp(10px, 3vw, 22px); }
+.owner-hero h1 { max-width: 880px; }
+.plain-section { display: grid; grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1.3fr); gap: clamp(24px, 6vw, 72px); align-items: start; }
+.plain-copy { max-width: 760px; color: var(--color-muted); font-size: clamp(1.08rem, 1.8vw, 1.24rem); line-height: 1.6; }
+.plain-copy p:last-child { margin-bottom: 0; }
+.simple-card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.simple-card-grid article, .step-list article, .handoff-panel { border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-surface); box-shadow: var(--shadow-soft); }
+.simple-card-grid article { padding: 24px; }
+.simple-card-grid svg, .handoff-panel svg { color: var(--color-accent); width: 24px; height: 24px; }
+.simple-card-grid h2 { margin-top: 18px; font-size: 1.6rem; }
+.simple-card-grid p { color: var(--color-muted); line-height: 1.55; }
+.steps-section { display: grid; grid-template-columns: minmax(240px, 0.6fr) minmax(0, 1.4fr); gap: clamp(24px, 6vw, 72px); align-items: start; }
+.steps-intro p:not(.eyebrow) { color: var(--color-muted); font-size: 1.12rem; line-height: 1.55; }
+.step-list { display: grid; gap: 12px; }
+.step-list article { display: grid; grid-template-columns: 42px minmax(0, 1fr); gap: 16px; padding: 20px; }
+.step-number { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 999px; background: var(--color-primary); color: var(--color-bg); font-weight: 800; }
+.step-list h3 { margin-bottom: 8px; font-size: 1.18rem; }
+.step-list code, .handoff-panel code { display: inline-flex; max-width: 100%; overflow-x: auto; border: 1px solid var(--color-border); border-radius: 10px; background: rgba(255, 255, 255, 0.52); padding: 8px 10px; color: var(--color-primary); font-weight: 800; }
+.step-list p { margin: 10px 0 0; color: var(--color-muted); line-height: 1.5; }
+.connection-list { display: grid; gap: 14px; max-width: 760px; }
+.handoff-panel { display: flex; justify-content: space-between; gap: 24px; align-items: center; padding: clamp(22px, 4vw, 34px); }
+.handoff-panel div { max-width: 660px; }
+.handoff-panel h2 { font-size: clamp(1.8rem, 3vw, 3.1rem); margin: 12px 0 10px; }
+.handoff-panel p { margin: 0; color: var(--color-muted); line-height: 1.55; }
+.handoff-panel pre { margin: 0; }
+@media (max-width: 1020px) {
+  .simple-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+  .plain-section, .steps-section { grid-template-columns: 1fr; }
+  .simple-card-grid { grid-template-columns: 1fr; }
+  .handoff-panel { align-items: stretch; flex-direction: column; }
+}

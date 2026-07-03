@@ -1,6 +1,6 @@
 # Agent Ready Starter
 
-A Modais-branded, production-shaped starter for non-technical founders or operators who want to edit an app with Codex or Claude Code without wiring the same infrastructure every time.
+A Modais-branded starter workspace for non-technical founders or operators who want to ask Codex or Claude Code for useful website/app changes without rebuilding the setup every time.
 
 It includes:
 
@@ -23,9 +23,9 @@ npm run dev
 
 Open http://localhost:3000. The app also has a setup page at `/setup`.
 
-## Connect The Systems
+## What This Is
 
-Use [docs/CONNECT_SYSTEMS.md](docs/CONNECT_SYSTEMS.md) as the handoff checklist. It covers GitHub, Vercel, Supabase, Codex, Claude Code, local hooks, and optional agent CI secrets.
+This is a ready-to-edit project folder. It includes the app, setup commands, brand rules, Supabase notes, safety checks, and instructions that Codex/Claude can follow. See `/setup` in the app for the plain-English owner guide, and [docs/CONNECT_SYSTEMS.md](docs/CONNECT_SYSTEMS.md) for the technical checklist.
 
 The key commands are:
 

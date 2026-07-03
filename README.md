@@ -23,6 +23,8 @@ npm run dev
 
 Open http://localhost:3000. The app also has a setup page at `/setup`.
 
+Public tooling-page mockup: `/tooling/agent-ready-starter`. This is the page intended to lift into the Modais website under Tooling after replacing the placeholder GitHub URL.
+
 ## What This Is
 
 This is a ready-to-edit project folder. It includes the app, setup commands, brand rules, Supabase notes, safety checks, and instructions that Codex/Claude can follow. See `/setup` in the app for the plain-English owner guide, and [docs/CONNECT_SYSTEMS.md](docs/CONNECT_SYSTEMS.md) for the technical checklist.

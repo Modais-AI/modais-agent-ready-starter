@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "A plain-English setup page for the Modais Agent Ready Starter template."
 };
 
-const githubUrl = "https://github.com/YOUR_GITHUB_ORG/YOUR_TEMPLATE_REPO";
+const githubUrl = "https://github.com/Modais-AI/modais-agent-ready-starter";
 
 const outcomes = [
   "A working website/app starter with the setup already organised.",
@@ -71,7 +71,7 @@ export default function ToolingPage() {
           <a className="button primary" href={githubUrl}>Get the GitHub template <ExternalLink aria-hidden="true" /></a>
           <a className="button secondary" href="#steps">See the steps</a>
         </div>
-        <p className="microcopy">Replace the GitHub URL before publishing this page on the live Modais website.</p>
+        <p className="microcopy">This page is ready to move into the Modais website under Tooling.</p>
       </section>
 
       <section className="tooling-overview" aria-label="What you get">

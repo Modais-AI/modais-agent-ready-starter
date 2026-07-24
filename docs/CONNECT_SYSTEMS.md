@@ -72,7 +72,7 @@ Only add `SUPABASE_SERVICE_ROLE_KEY` if a server-only route or script needs it. 
 After creating the GitHub repo:
 
 ```bash
-git remote add origin YOUR_REPO_URL
+git remote add origin https://github.com/Modais-AI/modais-agent-ready-starter.git
 git push -u origin main
 ```
 

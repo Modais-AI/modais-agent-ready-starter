@@ -7,7 +7,7 @@ Use Vercel for the app and managed Supabase for data/auth/storage.
 After this repo is published as a template, update the README deploy button:
 
 ```md
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_GITHUB_ORG/YOUR_TEMPLATE_REPO&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Modais-AI/modais-agent-ready-starter&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY)
 ```
 
 ## Required Environment Variables

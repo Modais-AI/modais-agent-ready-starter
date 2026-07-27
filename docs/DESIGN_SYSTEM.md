@@ -29,6 +29,17 @@ This template uses the Modais brand direction from `https://modais.xyz/`. It sho
 - Make mobile type large but constrained so words do not collide or overflow.
 - Keep CTAs short: “Book a free chat”, “Find your first AI project”, “See what's included”.
 
+
+## Impeccable Frontend Standard
+
+Use `.agents/skills/impeccable.style/SKILL.md` for serious frontend work. It is the quality bar for creating, redesigning, polishing, or auditing pages and components.
+
+- Start from the user's task and the real route/component, not from a generic landing-page pattern.
+- Design should serve non-technical owners: clear next steps, plain labels, obvious controls, and no needless technical jargon.
+- Make responsive behavior explicit. Check narrow mobile layouts for wrapping, spacing, and touch target quality.
+- Avoid generic AI design tells: gradient text, decorative blobs, glassmorphism, over-rounded cards, heavy shadows, repeated icon-card grids, and tiny uppercase eyebrows on every section.
+- Prefer restrained product UI for setup/admin/tooling screens. Save bigger brand expression for public pages.
+
 ## Agent Rules
 
 - Preserve real business claims from the user or source docs.

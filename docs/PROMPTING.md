@@ -1,5 +1,12 @@
 # Prompting Guide
 
+
+## Impeccable Frontend Work
+
+```text
+Run the impeccable.style workflow on [PAGE OR COMPONENT]. Make it production-grade: improve clarity, hierarchy, spacing, responsiveness, accessibility, and interaction states while preserving truthful content and the Modais design system. Avoid generic AI design tropes and run the relevant checks.
+```
+
 ## Design Refresh
 
 ```text

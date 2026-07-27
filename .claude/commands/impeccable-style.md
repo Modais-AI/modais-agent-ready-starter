@@ -1,0 +1,1 @@
+Read `CLAUDE.md`, `AGENTS.md`, `.agents/skills/impeccable.style/SKILL.md`, and `docs/DESIGN_SYSTEM.md`. Then complete the requested frontend work to a production-grade standard: inspect the existing route/component first, preserve truthful content, avoid generic AI design tropes, make mobile and desktop deliberate, and run the relevant checks before summarizing the result.

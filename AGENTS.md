@@ -15,6 +15,7 @@ This is a client-editable starter app. The goal is to let non-technical users ma
 - Reusable UI belongs in `src/components/`.
 - Supabase clients live in `src/lib/supabase/`.
 - Agent workflows live in `.agents/skills/` and `.claude/commands/`.
+- Default frontend craft workflow: `impeccable.style`.
 
 ## Guardrails
 
@@ -28,7 +29,7 @@ This is a client-editable starter app. The goal is to let non-technical users ma
 
 ## Before Editing
 
-- For visual work, read `docs/DESIGN_SYSTEM.md` first.
+- For visual work, read `.agents/skills/impeccable.style/SKILL.md` and `docs/DESIGN_SYSTEM.md` first.
 - For database work, read `supabase/README.md` first.
 - For security-sensitive work, read `SECURITY.md` first.
 
